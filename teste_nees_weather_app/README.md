@@ -4,6 +4,12 @@ Edson Koiti Kudo Yasojima
 koitiyasojima@gmail.com
 (91) 99365-8669
 
+## Observações sobre a api
+A api fornecida busca apenas dados da cidade de são paulo, para acessar outras cidades
+é necessário gerar uma chave para acessar outras cidades, ainda com um número limitado de consulta por ip
+Além disso, a api não fornece dados do tempo detalhando as horas ao decorrer do dia, prejudicando um pouco
+a fidelização ao wireframe
+
 ## Link do app em execução no emulador android
 https://youtube.com/shorts/HBlfSu5Fgno?feature=share
 
