@@ -48,13 +48,14 @@ class ForecastCard extends StatelessWidget {
         itemCount: forecasts.length,
         itemBuilder: (BuildContext context, int index) {
           return ListTile(
-              leading: IconFactory.getForecastIcon(forecasts.elementAt(index)),
-              title: Text(
-                "${forecasts.elementAt(index).weekday} ${formater.format(forecasts.elementAt(index).date)}",
-                style: Theme.of(context).textTheme.bodyText1,
-              ),
-              trailing: Text(
-                  "Min: ${forecasts.elementAt(index).min}°c Máx: ${forecasts.elementAt(index).max}°c"));
+            leading: IconFactory.getForecastIcon(forecasts.elementAt(index)),
+            title: Text(
+              "${forecasts.elementAt(index).weekday} ${formater.format(forecasts.elementAt(index).date)}",
+              style: Theme.of(context).textTheme.bodyText1,
+            ),
+            trailing: Text(
+                "Min: ${forecasts.elementAt(index).min}°c Máx: ${forecasts.elementAt(index).max}°c"),
+          );
         });
   }
 }

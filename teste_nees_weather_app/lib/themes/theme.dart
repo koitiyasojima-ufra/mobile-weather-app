@@ -10,7 +10,7 @@ final ThemeData dayTheme = ThemeData(
       color: Colors.black54,
     ),
     headline3: TextStyle(
-      fontSize: 24.0,
+      fontSize: 36.0,
       color: Colors.black54,
     ),
     bodyText1: TextStyle(),
@@ -31,7 +31,7 @@ final ThemeData nightTheme = ThemeData(
       color: Colors.white70,
     ),
     headline3: TextStyle(
-      fontSize: 24.0,
+      fontSize: 36.0,
       color: Colors.white70,
     ),
     bodyText1: TextStyle(),

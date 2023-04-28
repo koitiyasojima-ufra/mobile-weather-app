@@ -26,9 +26,19 @@ class MainWeatherInfoWidget extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text(
-              "${weather.temp}°",
-              style: Theme.of(context).textTheme.headline3,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Image.asset(
+                  'assets/icons/temp.png',
+                  width: 48,
+                  height: 48,
+                ),
+                Text(
+                  "${weather.temp}°",
+                  style: Theme.of(context).textTheme.headline3,
+                ),
+              ],
             ),
           ),
         ],

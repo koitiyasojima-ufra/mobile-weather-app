@@ -7,8 +7,9 @@ koitiyasojima@gmail.com
 ## Link do app em execução no emulador android
 https://youtube.com/shorts/HBlfSu5Fgno?feature=share
 
-## Execução Rápida para Teste
+## Execução Rápida para Teste no Windows
 Para executar/emular a aplicação basta baixar o arquivo Release.rar, descompactar e executar teste_nees_weather_app.exe
+a Tela pode ser redimensionada para simular o tamanho de uma tela de smarphone e/ou tablet
 
 ## Execução em Smartphone ou Emulador
 O código foi desenvolvido no Flutter, caso queira executar em um emulador ou no própio smarphone, será necessário instalar o Flutter no seu computador
