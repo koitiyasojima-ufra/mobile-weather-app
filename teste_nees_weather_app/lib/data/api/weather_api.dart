@@ -10,6 +10,7 @@ class WeatherAPI {
       Response response = await dio.get(API_URL);
       return response.data;
     } catch (e) {
+      //TESTE
       /**
        * A API TEM CHAMADAS LIMITADAS
        * POR ISSO QUANDO O LIMITE FOR EXTRAPOLADO
